@@ -116,15 +116,15 @@ header .header-box .mobile-menu li a {
 
 .swiper-container img {
   width: 50%;
-  height: 60%;
+  margin-top: 60px;
 }
 
 .swiper-container .swiper-button-prev {
-  visibility: hidden;
+  color: black;
 }
 
 .swiper-container .swiper-button-next {
-  visibility: hidden;
+  color: black;
 }
 
 .music-content {
