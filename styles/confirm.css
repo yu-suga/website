@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(221, 221, 221, 0.8);
+}
+
+body h1 {
+  padding-top: 20%;
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+
+body a {
+  padding-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=confirm.css.map */

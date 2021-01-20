@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YutaroSugawawra</title>
+    <meta name="description" content="YutaroSugawara web site">
+    <OGP >
+    <link rel="stylesheet" href="styles/loading.css">
+    <link rel="stylesheet" href="styles/breakpointes/mobile.css">
+    <link rel="stylesheet" href="styles/breakpointes/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="styles/breakpointes/desktop.css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+</head>
+
+<!-- ローディング画面 -->
+<div id="loader-bg">
+    <div id="loader">
+        <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+    </div>
+  </div>
+
+<div id = "wrap" class="wrapper">
+    <body>
+        <header>
+            <div class="header-box">
+                <div id="global-container">
+                    <div id ="container">
+                        <button class="menu-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <nav class="mobile-menu">
+                        <ul>
+                            <li>
+                                <a href=#bio-content>Bio</a>                           
+                            </li>
+                            <li>
+                                <a href="https://ra.co/dj/yutarosugawara" target="_blank" rel="noopener noreferrer">RA</a>
+                            </li>
+                            <li>
+                                <a href="#music-container">Music</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <h1 class="name-icon">
+                    <a>YutaroSugawara</a>
+                </h1>
+            </div>
+        </header>
+
+        <div class="title">
+            <h1>
+                <span>Yutaro Sugawara</span>
+            </h1>
+        </div>
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="https://ra.co/dj/yutarosugawara" target="blank" rel="noopener noreferrer">
+                        <img src="img/dense.jpg" alt="dense">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://holdinghandsrecords.bandcamp.com/track/warp" target="blank" rel="noopener noreferrer">
+                        <img src="img/warp.jpg" alt="SlamJames">
+                    </a>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
+
+        <div class="music-content">
+            <div class="music-container" id="music-container">
+                <div>
+                    <a href="https://holdinghandsrecords.bandcamp.com/track/warp" target="_blank" rel="noopener noreferrer"><i class="fab fa-bandcamp fa-5x"></i></a></i>
+                </div>
+                <div>
+                    <a href="https://soundcloud.com/alex-489400237" target="_blank" rel="noopener noreferrer"><i class="fab fa-soundcloud fa-5x"></i></a>
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/artist/5yLX3SOmP4hBcKUYRgeRCY?si=IOT2ggc9Tx6foMNPQrcU6w" target="_blank" rel="noopener noreferrer"><i class="fab fa-spotify fa-5x"></i></a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=G-OKRs0pRXg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-5x"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bio-content">
+            <div id="bio-content">
+                <h1>Biography</h1>
+                <p>東京に拠点を置く1996年生まれのDJ/プロデューサー。<br>
+                    2018年にモルドバを拠点とするインディペンデントレーベルConceptual RecordsからEPをリリースしデビューを果たす。<br>
+                    2019年にはDesert Sound Colony主催、Holding Handsのコンピレーションアルバムから自身の楽曲、”Warp”のリリースを果たし、
+                    UpsammyやNazira、Scubaなどにプレーされ各方面から高い支持を得る。<br>
+                    現在は制作だけでなく、Congress DanceクルーのメンバーとしてDJ活動も行う。</p>
+            </div>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-container">
+                <h1>contact</h1>
+                <form method="POST" action="dbConnect.php">
+                    <input type="text" placeholder="Name" name="name" maxlength="25" required>
+    
+                    <input type="email" placeholder="Email" name="mail" maxlength="40" required>
+                
+                    <textarea  rows="7" placeholder="Message" name="message" maxlength="500" required></textarea>
+
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <small>&copy;2021 YutaroSugawara</small>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/abd4a93a76.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/load.js"></script>
+        <script src="js/menu.js"></script>
+        
+    </body>
+</div>
+</html>

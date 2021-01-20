@@ -1,0 +1,246 @@
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+body {
+  background-color: #e0e0e0;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+header .header-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .header-box .name-icon {
+  padding-top: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 10px;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 15px #fff;
+}
+
+header .header-box .menu-icon {
+  background-color: transparent;
+  border: none;
+  float: right;
+  outline: none !important;
+  cursor: pointer;
+  padding: 30px 10px 0 0;
+}
+
+header .header-box .menu-icon > span {
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin-bottom: 9px;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
+  background-color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 15px #fff;
+}
+
+header .header-box .menu-icon > span:last-child {
+  margin-bottom: 0;
+}
+
+header .header-box .mobile-menu {
+  float: right;
+  width: 35px;
+  height: 3px;
+  display: block;
+  padding-top: 60px;
+}
+
+header .header-box .mobile-menu li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+header .header-box .mobile-menu li a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 0 10px black, 0 0 15px #fff;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+}
+
+.title {
+  width: 100%;
+  height: 300px;
+  padding-top: 80px;
+}
+
+.title h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  height: 180px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.title h1 span {
+  display: block;
+  text-align: center;
+  height: 100%;
+  font-size: 40px;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 15px;
+  line-height: 90px;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 10px #fff;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-container .swiper-slide {
+  text-align: center;
+}
+
+.swiper-container img {
+  width: 50%;
+  height: 60%;
+}
+
+.swiper-container .swiper-button-prev {
+  visibility: hidden;
+}
+
+.swiper-container .swiper-button-next {
+  visibility: hidden;
+}
+
+.music-content {
+  height: 100%;
+  text-align: center;
+  background-color: #cccccc;
+}
+
+.music-content .music-container div {
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.music-content .music-container div a {
+  color: #eeeeee;
+  text-shadow: 0 0 2px #fff, 0 0 1px #eeeeee;
+}
+
+.music-content .music-container div a i {
+  cursor: pointer;
+}
+
+.bio-content {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;
+}
+
+.bio-content div {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.bio-content div h1 {
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 15px;
+  color: black;
+  text-shadow: 0 0 10px black, 0 0 10px #fff;
+}
+
+.bio-content div p {
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  line-height: 40px;
+  margin: 0 50px;
+  font-size: small;
+}
+
+.contact-content {
+  width: 100%;
+  height: 600px;
+  background-color: #cccccc;
+}
+
+.contact-content .contact-container {
+  height: 300px;
+  width: 100%;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.contact-content .contact-container h1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 15px;
+  color: black;
+  text-shadow: 0 0 10px black, 0 0 10px #fff;
+}
+
+.contact-content .contact-container form {
+  height: 400px;
+}
+
+.contact-content .contact-container form textarea {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-content .contact-container form input {
+  width: 70%;
+  height: 30px;
+  display: block;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-content .contact-container form input:last-child {
+  cursor: pointer;
+}
+
+footer div {
+  text-align: center;
+}
+
+footer small {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=mobile.css.map */
