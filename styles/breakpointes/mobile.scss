@@ -169,8 +169,12 @@ header {
       letter-spacing: 1px;
       padding-top: 20px;
       line-height: 40px;
-      margin: 0 50px;
+      margin: 0 60px;
       font-size: small;
+      
+      br {
+        display: none;
+      }
     }
   }
 }

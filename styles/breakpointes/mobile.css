@@ -181,8 +181,12 @@ header .header-box .mobile-menu li a {
   letter-spacing: 1px;
   padding-top: 20px;
   line-height: 40px;
-  margin: 0 50px;
+  margin: 0 60px;
   font-size: small;
+}
+
+.bio-content div p br {
+  display: none;
 }
 
 .contact-content {
