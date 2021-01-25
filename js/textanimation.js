@@ -1,5 +1,7 @@
+// 文字アニメーション監視処理
 const titleAnimation = document.querySelector('#title-animation');
 const titleAnimation2 = document.querySelector('#title-animation2');
+const musicContainer = document.querySelector('#music-container');
 
 const cb = function(entries, observe) {
     entries.forEach(entry => {
@@ -19,3 +21,4 @@ const options = {
 const io = new IntersectionObserver(cb,options);
 io.observe(titleAnimation);
 io.observe(titleAnimation2);
+io.observe(musicContainer);

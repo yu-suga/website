@@ -1,8 +1,8 @@
-#title-animation.inview, #title-animation2.inview {
+#title-animation.inview, #title-animation2.inview, #music-container.inview {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   visibility: visible !important;
